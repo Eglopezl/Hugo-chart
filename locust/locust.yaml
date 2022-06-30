@@ -47,7 +47,7 @@ spec:
   ports: 
     - port: 8089 
       targetPort: 8089 
-      nodePort: 30015 
+      nodePort: 30016 
   selector: 
     app: locust 
   type: LoadBalancer 
